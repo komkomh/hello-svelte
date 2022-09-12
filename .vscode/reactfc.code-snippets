@@ -1,0 +1,17 @@
+{
+  "reactfc": {
+    "scope": "typescriptreact",
+    "prefix": ["reactfc", "rfc"],
+    "body": [
+      "import { FC } from \"react\";",
+      "",
+      "type Props = {};",
+      "",
+      "export const $TM_FILENAME_BASE: FC<Props> = (props) => {",
+      "  return <div></div>;",
+      "};",
+      ""
+    ],
+    "description": "Reactコンポーネントのテンプレート"
+  }
+}
